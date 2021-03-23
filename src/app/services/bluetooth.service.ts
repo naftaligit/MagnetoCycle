@@ -2,9 +2,10 @@ import { Injectable } from '@angular/core';
 import { BluetoothSerial } from '@ionic-native/bluetooth-serial/ngx';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: 'root'
 })
 export class BluetoothService {
+
   constructor(private bluetoothSerial: BluetoothSerial) {
     // Write a string
     this.bluetoothSerial.write('hello world').then((success) => {
