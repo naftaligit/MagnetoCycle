@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BluetoothService } from '../services/bluetooth.service';
 
 @Component({
   selector: 'app-tab1',
@@ -7,6 +8,10 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+  constructor(public BluetoothService : BluetoothService) {}
+
+  getData(){
+    alert("getData")
+  }
 
 }

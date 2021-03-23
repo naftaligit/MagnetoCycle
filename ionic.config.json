@@ -1,5 +1,7 @@
 {
   "name": "MagnetoCycle",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
